@@ -185,3 +185,10 @@ if (....(cari) == null){
 
 ## Soal Tantangan
 Modifikasi program Linked List yang dibuat di kelas praktikum sehingga Linked List tidak menginputkan data berupa angka, melainkan berupa **String** (tidak harus dimasukkan secara berurutan). Anda bisa mencoba untuk tipe-tipe data yang lain, bahkan tipe data *class* sekalipun.
+
+**Keterangan :** Jika ingin menginputkan data String secara berurutan, pada method insert gunakan perbandingan berikut.
+Misalkan kita mempunyai string "a" dan "b" maka :
+```
+"a".compareTo("b")
+```
+menghasilkan nilai negatif (< 0), dan perbandingan sebaliknya akan menghasilkan nilai positif (> 0). Jika kedua string sama maka nilai yang dihasilkan adalah 0.
