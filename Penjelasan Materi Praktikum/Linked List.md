@@ -172,7 +172,7 @@ public class Modul3 {
     }
 }
 ```
-Untuk menambahkan fitur *searching* pada linked list, misalkan kita sudah mempunyai Scanner bernama input :
+Untuk menambahkan fitur *searching* pada linked list, misalkan kita sudah mempunyai Scanner bernama input (tambahkan di main class) :
 ```
 System.out.print("Masukkan data yang ingin dicari : ");
 int cari = input.nextInt();
