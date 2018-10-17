@@ -6,17 +6,16 @@
 3.	Highlight script code Java melalui link : http://www.planetb.ca/syntax-highlight-word (hasil highlight di-copy paste ke Microsoft Word) dan screenshot hasil run program.
 4.	Kirimkan dokumen melalui e-mail dengan subjek **KUIS_RES_I_NRP** (format PDF) ke :
 
-    NRP Ganjil : yohanes@stiki.ac.id
+    NRP Genap : yohanes@stiki.ac.id
 
-    NRP Genap : 161111044@mhs.stiki.ac.id
+    NRP Ganjil : 161111044@mhs.stiki.ac.id
     
-    Deadline : **Rabu, 24 Oktober 2018 pukul 18.00**
+    Deadline : **Kamis, 25 Oktober 2018 pukul 18.00**
 
 5.	Boleh membuka modul dan project dari modul, tetapi dilarang keras copy paste source code dari internet.
 
 ## Soal
-Buatlah sebuah aplikasi sederhana permainan Tebak Harga Barang. Gunakan hashtable sebagai bank soal dari permainan. Soal merupakan objek yang terdiri dari pertanyaan dan jawaban. Setiap kali memulai permainan, aplikasi akan memilih lima soal acak yang dimasukkan ke dalam LinkedList, ArrayList, maupun Stack/Queue. Di tiap akhir permainan tampilkan berapa jawaban benar dan salah. Jawaban yang benar adalah jawaban dengan harga tebakan user sama atau perbedaannya tidak lebih dari 3.000 dari harga yang benar (lebih besar maupun lebih kecil).
-User dapat mengulang kembali permainan.
+Buatlah sebuah aplikasi sederhana permainan tebak nama ibukota negara di seluruh dunia. Gunakan hashtable sebagai bank soal dari permainan. Bank soal merupakan objek yang terdiri dari nama negara beserta ibukota negaranya. Setiap kali memulai permainan, aplikasi akan memilih lima soal acak yang dimasukkan ke dalam LinkedList, ArrayList, maupun Stack/Queue. Di tiap akhir permainan, maka akan ditampilkan berapa jawaban benar dan salah. User dapat mengulang kembali permainan.
 
 ### Catatan
 - Selain source code dari modul, dilarang keras menggunakan struktur source code yang sama.
