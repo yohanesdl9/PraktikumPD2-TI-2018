@@ -11,7 +11,7 @@
 
     NRP Genap : 161111051@mhs.stiki.ac.id
     
-    Deadline : **Kamis, 18 Oktober 2018 pukul 18.00**
+    Deadline : **Sabtu, 20 Oktober 2018 pukul 18.00**
 
 6.	Boleh membuka modul dan project dari modul, tetapi dilarang keras copy paste source code dari internet.
 
