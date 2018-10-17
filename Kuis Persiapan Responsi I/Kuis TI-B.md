@@ -10,7 +10,7 @@
 
     NRP Genap : 161111044@mhs.stiki.ac.id
     
-    Deadline : **Sabtu, 20 Oktober 2018 pukul 18.00**
+    Deadline : **Senin, 22 Oktober 2018 pukul 18.00**
 
 5.	Boleh membuka modul dan project dari modul, tetapi dilarang keras copy paste source code dari internet.
 
@@ -18,8 +18,7 @@
 Buatlah sebuah aplikasi sederhana permainan Tebak Harga Barang. Gunakan hashtable sebagai bank soal dari permainan. Soal merupakan objek yang terdiri dari pertanyaan dan jawaban. Setiap kali memulai permainan, aplikasi akan memilih lima soal acak yang dimasukkan ke dalam LinkedList, ArrayList, maupun Stack/Queue. Di tiap akhir permainan tampilkan berapa jawaban benar dan salah. Jawaban yang benar adalah jawaban dengan harga tebakan user sama atau perbedaannya tidak lebih dari 3.000 dari harga yang benar (lebih besar maupun lebih kecil).
 
 ### Catatan
-1.	Selain source code dari modul, dilarang keras menggunakan struktur source code yang sama.
-2.	Jika diketahui ada struktur source code yang sama maka nilai akan dibagi sejumlah jawaban yang sama.
+- Selain source code dari modul, dilarang keras menggunakan struktur source code yang sama.
 
 ### Kriteria Penilaian :
 1. Asal mengumpulkan: 50 poin
