@@ -1,11 +1,8 @@
 # Linked List
 
-Linked List adalah struktur data linier dimana elemen-elemennya (yang dinamakan *node*) tidak disimpan di lokasi yang berdekatan dan setiap elemen adalah objek terpisah dengan bagian data dan bagian *address*. Elemen-elemen ini terhubung dengan pointer dan address. 
+Linked List adalah sekumpulan elemen-elemen (boleh kosong) yang setiap elemennya terdiri atas 2 bagian, yaitu bagian data (data) dan bagian alamat (di sini terdapat prev dan next). Bagian data berisi nilai yang akan dimanipulasi, sedangkan bagian alamat berisi alamat element list sebelumnya/selanjutnya.
 
-## Kelebihan dan Kekurangan Linked List
-**Kelebihan :** Dinamis, lebih mudah dalam pemasukan data dan penghapusan data
-
-**Kekurangan :** Node tidak dapat diakses secara langsung, sehingga untuk mencapai node yang ingin diakses, kita harus memulai dari *head* dan menelusuri link demi link untuk mencapai node yang ingin diakses.
+Jika diperhatikan pada *source code* class LinkedListNode, pendefinisian LinkedListNode bersifat rekursif. Perhatikan pada tipe dari next dan prev, yaitu LinkedListNode.
 
 ## Source Code
 ### LinkedListNode.java
@@ -192,3 +189,6 @@ Misalkan kita mempunyai string "a" dan "b" maka :
 "a".compareTo("b")
 ```
 menghasilkan nilai negatif (< 0), dan perbandingan sebaliknya akan menghasilkan nilai positif (> 0). Jika kedua string sama maka nilai yang dihasilkan adalah 0.
+
+## Daftar Pustaka
+Munir, Rinaldi. 2011. *Algotirma dan Pemrograman dalam Bahasa Pascal dan C Edisi Revisi*. Bandung: Penerbit Informatika.
