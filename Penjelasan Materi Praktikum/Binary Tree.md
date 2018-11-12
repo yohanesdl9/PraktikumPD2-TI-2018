@@ -1,4 +1,15 @@
 # Binary Tree
+## Apakah itu Binary Tree?
+Binary tree adalah struktur data pohon dimana setiap simpul memiliki paling banyak dua anak, yang secara khusus dinamakan kiri (left) dan kanan (right).
+
+## Traversing dalam Binary Tree
+Untuk mengunjungi simpul-simpul di dalam Binary Tree, dikenal 3 teknik :
+- **Infix** : left-root-right (simpul akar dikunjungi di antara simpul anak-anaknya).
+- **Prefix** : root-left-right (simpul akar dikunjungi sebelum simpul anak-anaknya).
+- **Postfix** : left-right-root (simpul akar dikunjungi setelah simpul anak-anaknya).
+
+## Binary Tree Simulation
+- http://www.cs.armstrong.edu/liang/animation/web/BST.html
 
 ## Source Code
 ### BinaryTreeNode.java
@@ -364,6 +375,22 @@ public class BinaryTree{
                 }
             }
         }
+    }
+
+    BinaryTreeNode traverse(int data) {
+        BinaryTreeNode current = this.root;
+        while (current != null) {
+            if (current.data == data) {
+                return current;
+            } else {
+                if (current.data < data) {
+                    current = current.right;
+                } else {
+                    current = current.left;
+                }
+            }
+        }
+        return null;
     }
 }
 ```
